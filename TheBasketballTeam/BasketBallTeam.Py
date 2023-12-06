@@ -68,3 +68,7 @@ cursor.execute('''
                create_at TIMESTAMP
         )
 ''')
+
+conn.commit()
+
+conn.close()
